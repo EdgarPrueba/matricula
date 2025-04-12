@@ -1,0 +1,14 @@
+digraph "include/Enrollment.h"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="include/Enrollment.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Definición de la clase Enrollment para manejar matrículas de estudiantes en cursos."];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="Student.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Student_8h.html",tooltip="Definición de la clase Student para manejar información de estudiantes."];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="Course.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$Course_8h.html",tooltip="Definición de la clase Course para manejar información de cursos."];
+  Node4 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
